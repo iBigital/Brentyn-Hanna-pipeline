@@ -1,8 +1,7 @@
 
-Sitemap: https://ibigital.com/sitemap.txt
+Sitemap: https://brentyn.net/sitemap.txt
 
 User-agent: *
-Disallow: /contactForm.php
 
 User-agent: Baiduspider
 User-agent: Yisouspider
