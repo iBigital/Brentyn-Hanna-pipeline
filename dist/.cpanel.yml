@@ -1,0 +1,20 @@
+---
+    deployment:
+        tasks:
+            - export DEPLOYPATH=/home/bgitbrentynnet/public_html/
+            - /bin/cp -R dist/_nuxt $DEPLOYPATH
+            - /bin/cp -R dist/about $DEPLOYPATH
+            - /bin/cp -R dist/assets $DEPLOYPATH
+            - /bin/cp -R dist/contact $DEPLOYPATH
+            - /bin/cp -R dist/icons $DEPLOYPATH
+            - /bin/cp -R dist/resume $DEPLOYPATH
+            - /bin/cp -R dist/screenshots $DEPLOYPATH
+            - /bin/cp -R dist/skills $DEPLOYPATH
+            - /bin/cp dist/.nojekyll $DEPLOYPATH
+            - /bin/cp dist/200.html $DEPLOYPATH
+            - /bin/cp dist/favicon.ico $DEPLOYPATH
+            - /bin/cp dist/index.html $DEPLOYPATH
+            - /bin/cp dist/license.txt $DEPLOYPATH
+            - /bin/cp dist/README.md $DEPLOYPATH
+            - /bin/cp dist/robots.txt $DEPLOYPATH
+            - /bin/cp dist/sitemap.txt $DEPLOYPATH
