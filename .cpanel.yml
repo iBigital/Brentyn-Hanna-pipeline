@@ -7,7 +7,7 @@
             - /bin/cp -R dist/assets $DEPLOYPATH
             - /bin/cp -R dist/contact $DEPLOYPATH
             - /bin/cp -R dist/icons $DEPLOYPATH
-             - /bin/cp -R dist/screenshots $DEPLOYPATH
+            - /bin/cp -R dist/screenshots $DEPLOYPATH
             - /bin/cp -R dist/skills $DEPLOYPATH
             - /bin/cp dist/.nojekyll $DEPLOYPATH
             - /bin/cp dist/200.html $DEPLOYPATH
