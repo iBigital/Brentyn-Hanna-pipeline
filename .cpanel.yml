@@ -12,7 +12,9 @@
             - /bin/cp -R dist/skills $DEPLOYPATH
             - /bin/cp dist/.nojekyll $DEPLOYPATH
             - /bin/cp dist/200.html $DEPLOYPATH
+            - /bin/cp dist/favicon.ico $DEPLOYPATH
             - /bin/cp dist/index.html $DEPLOYPATH
             - /bin/cp dist/license.txt $DEPLOYPATH
+            - /bin/cp dist/README.md $DEPLOYPATH
             - /bin/cp dist/robots.txt $DEPLOYPATH
             - /bin/cp dist/sitemap.txt $DEPLOYPATH
